@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/kyra-1/otw-banditgames/main/aaa.png" alt="Bandit OTW Banner" width="100%" />
+</p>
+
 # 🕶️ OTW-BanditGames Walkthrough & Hints
 
 Heya! I'm Yashika/ kyra-1 ! 👋  
