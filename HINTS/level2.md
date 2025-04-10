@@ -17,6 +17,6 @@ ls -a
 ```bash
 ls -l
 ```
-🔎 Pro Tip: If the file name is weird or full of symbols, you might need to quote it or use tab completion.
+🔎 Pro Tip: If the file name is weird or full of symbols, you might need to **quote it** or **use tab completion**.
 
 >Don't assume files always want to be found — some like to stay hidden 😌
