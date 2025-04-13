@@ -12,3 +12,5 @@
 
     ## Q Why dashed filenames?
    >Dashed filenames are used as a trick — to hide files, test your skills, break assumptions, or mess with automation tools. Think of them as Linux’s version of a plot twist 😏
+
+3. Voila! you have the key to next level, Keep Hacking!
