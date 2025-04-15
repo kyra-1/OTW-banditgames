@@ -18,9 +18,9 @@
 5. looks like, there are a lot of files, and the password could be in any one of the following, manually checking each one would be a tedious task, so lets set up a *find* command for the specific kind of file we need, i.e.,
    
    >The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:   
-   1. human-readable   
-   2. 1033 bytes in size   
-   3. not executable
+   >1. human-readable   
+   >2. 1033 bytes in size   
+   >3. not executable
 
    ```bash
    find inhere -type f -size 1033c ! -executable -exec file {} \; | grep "ASCII text"
