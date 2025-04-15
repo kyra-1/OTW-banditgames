@@ -22,7 +22,7 @@
    ```
    where we used the addressing file location, because of the Dashed filenames
    > "file" command tells us about the type of content stored in the file, we are looking for ASCII text in this level   
-   > $i is used as a placeholder for the variable value
+   > '$i' is used as a placeholder for the variable value
    
 6. Having identified the odd-one-out file, print out the contents for yourself
    ```bash
