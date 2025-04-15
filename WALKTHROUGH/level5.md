@@ -1,5 +1,7 @@
 # 5. FOR loop and File command
 
+0. Login ```ssh bandit4@bandit.labs.overthewire.org -p 2220```
+    >Use the password from Level 4 to login.
 1. locate the files in the home directory
    ```bash
    ls -la
