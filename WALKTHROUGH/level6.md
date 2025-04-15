@@ -1,5 +1,7 @@
-# 5. FOR loop and File command
+# 6. FIND command
 
+0. Login ```ssh bandit5@bandit.labs.overthewire.org -p 2220```
+    >Use the password from Level 5 to login.
 1. locate the files in the home directory
    ```bash
    ls -la
@@ -25,7 +27,7 @@
    ```bash
    find inhere -type f -size 1033c ! -executable -exec file {} \; | grep "ASCII text"
    ```
-   where::
+   where::   
 ```find inhere```: Start looking inside the inhere directory.   
 ```-type f```: Only look for files (not directories).   
 ```-size 1033c```: File size is exactly 1033 bytes.   
