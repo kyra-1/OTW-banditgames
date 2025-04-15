@@ -15,14 +15,23 @@
     ```bash
    ls -la
    ```
-5. looks like, there are a lot of files, and the password could be in any one of the following, manually checking each one would be a tedious task, so lets set up a *FOR* loop in the command line, itself 
+5. looks like, there are a lot of files, and the password could be in any one of the following, manually checking each one would be a tedious task, so lets set up a *find* command for the specific kind of file we need, i.e.,
+   
+   >The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:   
+   1. human-readable   
+   2. 1033 bytes in size   
+   3. not executable
 
    ```bash
-   for i in {00..09};do file ./-file$i;done
+   find inhere -type f -size 1033c ! -executable -exec file {} \; | grep "ASCII text"
    ```
-   where we used the addressing file location, because of the Dashed filenames
-   > "file" command tells us about the type of content stored in the file, we are looking for ASCII text in this level   
-   > '$i' is used as a placeholder for the variable value
+   where::
+```find inhere```: Start looking inside the inhere directory.   
+```-type f```: Only look for files (not directories).   
+```-size 1033c```: File size is exactly 1033 bytes.   
+```! -executable```: File is not executable.   
+```-exec file {} \;```: For each file, show its type.   
+```grep "ASCII text"```: Only keep files that are human-readable.
    
 6. Having identified the odd-one-out file, print out the contents for yourself
    ```bash
