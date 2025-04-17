@@ -16,11 +16,20 @@ bandit-overthewire/
 │
 ├── hints/           # Subtle nudges and clues without spoilers
 │   ├── level0.md
-│   └── level1.md
+│   |── level1.md
+│   ├── level2.md
+│   └── level3.md
 │
 ├── walkthroughs/    # Full step-by-step solutions (spoiler alert!)
 │   ├── level0.md
-│   └── level1.md
-│
+│   |── level1.md
+|   ├── level2.md
+|   ├── level3.md
+|   ├── level4.md
+|   ├── level5.md
+|   ├── level6.md
+|   ├── level7.md
+|   └── level8.md
+|
 └── README.md        # You're here, cutie
 ```
