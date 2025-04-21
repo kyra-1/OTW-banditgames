@@ -10,7 +10,7 @@
    you see a file named ```data.txt```
   
 2. The problem says:
-  ```The password for the next level is stored in the file data.txt and is the only line of text that occurs only once   ```
+  ```The password for the next level is stored in the file data.txt and is the only line of text that occurs only once```
 So, if we sort the file, all the same lines will occur together, therefore: ```sort data.txt```
 and instead of saving it in another file, we will provide this sorted file contents to ```uniq``` command as input, with a lot of options available, you can check them out with ```uniq --help``` command.   
 To only output the unique text line, we will use the ```-u``` option,
