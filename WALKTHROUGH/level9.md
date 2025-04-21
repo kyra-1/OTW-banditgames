@@ -15,9 +15,9 @@ So, if we sort the file, all the same lines will occur together, therefore: ```s
 and instead of saving it in another file, we will provide this sorted file contents to ```uniq``` command as input, with a lot of options available, you can check them out with ```uniq --help``` command.   
 To only output the unique text line, we will use the ```-u``` option,
   so the final command becomes:
-```bash
-sort data.txt | uniq -u
-```
-This will output the unique line, thus the password!
+    ```bash
+    sort data.txt | uniq -u
+    ```
+   This will output the unique line, thus the password!
    
 3. Voila!, you have the key to next level, Keep hacking, you lil hacker!
