@@ -1,4 +1,4 @@
-# 7. `GREP` Command 
+# 8. `GREP` Command 
 
 0. Login ```ssh bandit7@bandit.labs.overthewire.org -p 2220```
     >Use the password from Level 7 to login.
