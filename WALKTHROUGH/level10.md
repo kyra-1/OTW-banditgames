@@ -33,7 +33,7 @@ This command will:
 - `strings data.txt` : extract readable strings
 - `| grep '='` : select only the ones having '=' (multiple '=')
 
-3. Observing the output:
+3. Observing the output:   
 We get output like:
 ```
 ,k=?
@@ -50,15 +50,15 @@ e=<2g%
 +G/YD=
 =wDk
 =3?lOt
-========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+========== [a pretty long string here]
 =D!f
 H =sS,,
 ```
 Looking closely, after a lot of equal signs (`=`), we find:
 ```
-========== FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+========== [a pretty long string here]
 ```
-Thus, **FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey** is the password.
-
+Thus, **[a pretty long string here]** is the password.
+> The password is faked here, __[a pretty long string here]__ is **not** the real password
 4. Voila!, you have the key to next level, Keep hacking, you lil hacker!
 
