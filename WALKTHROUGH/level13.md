@@ -1,10 +1,10 @@
-# 12. `Hexdump + Multiple Uncompress`
+# 13. `Hexdump + Multiple Uncompress`
 
 0. Login
 ```bash
 ssh bandit12@bandit.labs.overthewire.org -p 2220
 ```
->Use the password from Level 11 to login.
+>Use the password from Level 12 to login.
 
 1. Locate the files in the home directory:
 ```bash
