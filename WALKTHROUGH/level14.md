@@ -1,4 +1,4 @@
-# 13. `Private SSH Key Access`
+# 14. `Private SSH Key Access`
 
 0. Login
 
@@ -6,7 +6,7 @@
 ssh bandit13@bandit.labs.overthewire.org -p 2220
 ```
 
-> Use the password from Level 12 to login.
+> Use the password from Level 13 to login.
 
 1. Locate the files in the home directory:
 
