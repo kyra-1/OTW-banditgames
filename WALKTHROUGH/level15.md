@@ -1,4 +1,4 @@
-# 14. `Port Communication`
+# 15. `Port Communication`
 
 0. Login
 
@@ -6,7 +6,7 @@
 ssh bandit14@bandit.labs.overthewire.org -p 2220
 ```
 
-> Use the password from Level 13 to login.
+> Use the password from Level 14 to login.
 
 1. The problem says:
 
