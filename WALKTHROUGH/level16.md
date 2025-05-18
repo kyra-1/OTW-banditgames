@@ -1,4 +1,4 @@
-# 15. `SSL/TLS Communication`
+# 16. `SSL/TLS Communication`
 
 0. Login
 
@@ -6,7 +6,7 @@
 ssh bandit15@bandit.labs.overthewire.org -p 2220
 ```
 
-> Use the password from Level 14 to login.
+> Use the password from Level 15 to login.
 
 1. The problem says:
 
