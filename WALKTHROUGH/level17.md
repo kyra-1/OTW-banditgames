@@ -1,4 +1,4 @@
-# 16. `Port Scan & SSL Identification`
+# 17. `Port Scan & SSL Identification`
 
 0. Login
 
@@ -6,7 +6,7 @@
 ssh bandit16@bandit.labs.overthewire.org -p 2220
 ```
 
-> Use the password from Level 15 to login.
+> Use the password from Level 16 to login.
 
 1. The problem says:
 
