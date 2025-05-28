@@ -1,4 +1,4 @@
-# 17. `File Difference Detection`
+# 18. `File Difference Detection`
 
 0. Login
 
@@ -6,7 +6,7 @@
 ssh bandit17@bandit.labs.overthewire.org -p 2220
 ```
 
-> Use the password from Level 16 to login.
+> Use the password from Level 17 to login.
 
 1. The problem says:
 
