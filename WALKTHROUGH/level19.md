@@ -1,4 +1,4 @@
-# 18. `Bypass .bashrc Auto-Logout`
+# 19. `Bypass .bashrc Auto-Logout`
 
 0. Login
 
@@ -6,7 +6,7 @@
 ssh bandit18@bandit.labs.overthewire.org -p 2220
 ```
 
-> Use the password from Level 17 to login.
+> Use the password from Level 18 to login.
 
 1. The problem says:
 
